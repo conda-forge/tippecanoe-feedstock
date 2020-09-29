@@ -1,17 +1,17 @@
 {% set name = "tippecanoe" %}
-{% set version = "1.35.0" %}
+{% set version = "1.36.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-    url: https://github.com/mapbox//{{name}}/archive/{{ version }}.tar.gz
-    sha256: 4a31ef5ba1288eb17f9d52a7d84fef9432f13756af9d2c243d46309d6ff09488
+  url: https://github.com/mapbox//{{ name }}/archive/{{ version }}.tar.gz
+  sha256: 0e385d1244a0d836019f64039ea6a34463c3c2f49af35d02c3bf241aec41e71b
 
 build:
-  skip: true   # [win]
-  number: 1
+  skip: true  # [win]
+  number: 0
   script:
     - ls
     - make -j$CPU_COUNT
@@ -36,7 +36,7 @@ about:
   license: BSD-2-Clause
   license_family: BSD
   license_file: LICENSE.md
-  summary: "Build vector tilesets from large collections of GeoJSON features."
+  summary: Build vector tilesets from large collections of GeoJSON features.
 
 extra:
   recipe-maintainers:
