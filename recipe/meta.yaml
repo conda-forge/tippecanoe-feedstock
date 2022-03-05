@@ -40,6 +40,7 @@ about:
 
 extra:
   recipe-maintainers:
+    - jonaslalin
     - mxr-conda
     - adbeda
     - rluria14
