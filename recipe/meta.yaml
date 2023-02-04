@@ -1,17 +1,17 @@
 {% set name = "tippecanoe" %}
-{% set version = "1.36.0" %}
+{% set version = "2.22.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/mapbox//{{ name }}/archive/{{ version }}.tar.gz
-  sha256: 0e385d1244a0d836019f64039ea6a34463c3c2f49af35d02c3bf241aec41e71b
+  url: https://github.com/felt//{{ name }}/archive/{{ version }}.tar.gz
+  sha256: e1a337ed3454401305df95ab72bd4999b9838caeb954a147f5882ce2040425de
 
 build:
   skip: true  # [win]
-  number: 2
+  number: 0
   script:
     - ls
     - make -j$CPU_COUNT
@@ -32,7 +32,7 @@ test:
     - tippecanoe --help
 
 about:
-  home: https://github.com/mapbox/tippecanoe
+  home: https://github.com/felt/tippecanoe
   license: BSD-2-Clause
   license_family: BSD
   license_file: LICENSE.md
