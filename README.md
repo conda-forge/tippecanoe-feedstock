@@ -1,7 +1,7 @@
 About tippecanoe
 ================
 
-Home: https://github.com/mapbox/tippecanoe
+Home: https://github.com/felt/tippecanoe
 
 Package license: BSD-2-Clause
 
