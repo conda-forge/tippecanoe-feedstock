@@ -42,6 +42,6 @@ extra:
   recipe-maintainers:
     - jonaslalin
     - mxr-conda
-    - adbeda
     - rluria14
     - oblute
+    - dbrnz
