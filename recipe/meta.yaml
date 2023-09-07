@@ -1,5 +1,5 @@
 {% set name = "tippecanoe" %}
-{% set version = "2.28.0" %}
+{% set version = "2.28.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/felt//{{ name }}/archive/{{ version }}.tar.gz
-  sha256: a5454bb1f281e69e347d4beb77982c9ae4eff5a3162347cf017149afa19f703e
+  sha256: 7d0371be8d95dfd883d8102e8d30c21ab4db2ed58539041712184a2c65704077
 
 build:
   skip: true  # [win]
