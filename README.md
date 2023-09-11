@@ -177,7 +177,6 @@ Feedstock Maintainers
 =====================
 
 * [@dbrnz](https://github.com/dbrnz/)
-* [@jonaslalin](https://github.com/jonaslalin/)
 * [@mxr-conda](https://github.com/mxr-conda/)
 * [@oblute](https://github.com/oblute/)
 * [@rluria14](https://github.com/rluria14/)
