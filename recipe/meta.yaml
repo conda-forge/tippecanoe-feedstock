@@ -40,7 +40,6 @@ about:
 
 extra:
   recipe-maintainers:
-    - jonaslalin
     - mxr-conda
     - rluria14
     - oblute
