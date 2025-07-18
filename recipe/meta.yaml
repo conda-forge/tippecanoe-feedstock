@@ -1,5 +1,5 @@
 {% set name = "tippecanoe" %}
-{% set version = "2.31.0" %}
+{% set version = "2.78.0" %}
 
 package:
   name: {{ name|lower }}
@@ -11,7 +11,7 @@ source:
 
 build:
   skip: true  # [win]
-  number: 1
+  number: 0
   script:
     - ls
     - make -j$CPU_COUNT
