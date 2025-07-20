@@ -1,5 +1,5 @@
 {% set name = "tippecanoe" %}
-{% set version = "2.31.0" %}
+{% set version = "2.78.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/felt//{{ name }}/archive/{{ version }}.tar.gz
-  sha256: 895c0fd7ecfad4b8a3a3a52c880542421e716621d8c303e5b9d15f586bbd885e
+  sha256: da628c5fa1aec3aba318f6096d2f60d8b4cc78043e1c25e18a4d0975c8262f00
 
 build:
   skip: true  # [win]
@@ -22,6 +22,7 @@ requirements:
     - make
     - {{ compiler ('c') }}
     - {{ compiler ('cxx') }}
+    - {{ stdlib("c") }}
   host:
     - sqlite
     - zlib
@@ -44,3 +45,4 @@ extra:
     - rluria14
     - oblute
     - dbrnz
+    - hobu
