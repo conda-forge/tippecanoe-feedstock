@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: tippecanoe
-  version: 2.78.0
+  version: "2.79.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://github.com/felt//${{ name }}/archive/${{ version }}.tar.gz
-  sha256: da628c5fa1aec3aba318f6096d2f60d8b4cc78043e1c25e18a4d0975c8262f00
+  sha256: b0fd9df49b6efc988288ea48774822c6de19eb48428017f27ee0b3b01d44f05d
 
 build:
-  number: 1
+  number: 0
   skip: win
   script:
     - ls
